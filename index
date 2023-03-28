@@ -9,9 +9,9 @@
   <meta name="viewport" content="width=device-width">
   <link href="style.css" rel="stylesheet" type="text/css" media="all">
   <body style="background-color: #65a9f9;">
-
-  </body>"
+</body>
 </head>
+
 <style>
 body {
   background-color: white;
@@ -81,7 +81,7 @@ a:active {
 <body>
 <div class="headerText">
   <img src="logo 3.28.png" width= 50% height=50% >
-  <center>github
+  <center>
 Theseus One is a solution towards ergonomic mice and environmental waste all while</center>
 <center>
   featuring modular customizability.
