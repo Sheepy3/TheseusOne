@@ -2,11 +2,96 @@
 <html>
 <head>
   <title>Theseus One</title>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Theseus One is a solution towards ergonomic mice and environmental waste all while featuring modular customizability.">
   <meta name="keywords" content="customize customizable customizability ergonomic computer mouse environmentally-friendly recycle">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" media="all">
+  <body style="background-color: #65a9f9;">
+
+  </body>"
 </head>
+<style>
+body {
+  background-color: white;
+  color: w;
+  font-family: Arial Narrow, sans-serif;
+}
+
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial-Narrow, sans-serif;
+}
+a:link {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.headerText {
+      padding-bottom: 10px;
+      padding: 10px;
+      margin: 20px;
+      width: 80%;
+      color: #01226d;
+      text-align: center;
+      background-color: #d4e8fd;
+      font-family: NTSomic-Bold, sans-serif;
+      font-size: 20px;
+
+}
+
+.BodyText {
+        width: 300px;
+        background-color: grey
+        border: 15px solid grey;
+        padding: 50px;
+        margin: 20px;
+      }
+}
+
+@font-face { font-family: NTSomic; src: url('/fonts TTF/NTSomic-Medium.ttf'); }
+      {
+         font-family: NTSomic-Medium
+      }
+</style>
 
 <body>
-Hello world!
+<div class="headerText">
+  <img src="logo 3.28.png" width= 50% height=50% >
+  <center>github
+Theseus One is a solution towards ergonomic mice and environmental waste all while</center>
+<center>
+  featuring modular customizability.
+  </center>
+</div>
+<br> </br>
+<div class="BodyText">
+  <center>
+    Made with 100% environmentally friendly materials.
+  </center>
+</div>
 </body>
 </html>
