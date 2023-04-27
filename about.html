@@ -97,20 +97,25 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.navbar {
   overflow: hidden;
+  background-color: #320E3B;
+}
+
+.navbar a {
+  float: left;
+  color: #DDC4DD;
+  text-align: center;
+  padding: 25px 50px;
+  text-decoration: none;
+  font-size: 25px;
 }
 
 li {
   list-style-type: none;
   float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
 li a:hover {
@@ -122,6 +127,13 @@ li a:hover {
   color: white;
 }
 
+.git {
+  color:#f5f5f5;
+}
+
+.hub {
+  color:#fafafa;
+
 @font-face { font-family: NTSomic; src: url('docs/assets/fonts/NTSomic-Medium.ttf'); }
       {
          font-family: NTSomic-Medium
@@ -130,12 +142,12 @@ li a:hover {
 </style>
 
 <body>
-  <ul>
- <li><a href="subject.html">Home</a></li>
- <li><a href="product.html">Product</a></li>
- <li><a href="about.html">About Us</a></li>
- <li><a href="https://github.com/Sheepy3/TheseusOne">GitHub</a></li>
-</ul>
+ <div class="navbar">
+      <li><h2><a href="index.html">Home</a></h2></li>
+      <li><h2><a href="product.html">Product</a></h2></li>
+      <li><h2><a href="about.html">About Us</a></h2></li>
+      <li><h2><a href="https://github.com/Sheepy3/TheseusOne"><span class=git>Git</span><span class=hub>Hub</span></a></h2></li>
+    </div>
 <br></br>
 <br>
 <br/>
